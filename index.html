@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eternal AI Oracle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.2.umd.min.js" type="application/javascript"></script>
+</head>
+<body>
+    <div class="card">
+        <h1>Eternal AI Oracle</h1>
+        <p>Record the wisdom of AI on the immutable ledger of the blockchain.</p>
+        
+        <textarea id="prompt-input" placeholder="Ask a question..."></textarea>
+        <button id="ask-button">Consult the Oracle</button>
+        
+        <div class="status-section">
+            <h2>Oracle's Insight</h2>
+            <div id="ai-response" class="output-box">
+                The AI is waiting for your question.
+            </div>
+
+            <h2>Chain of Evidence</h2>
+            <div id="blockchain-status" class="output-box">
+                Your on-chain proof will appear here.
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
